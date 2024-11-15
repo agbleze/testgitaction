@@ -3,7 +3,7 @@ name: issue-translator
 on: [push]
 jobs:
   build:
-    runs-on: [self-hosted]
+    runs-on: [Linux]
     steps:
       - uses: tomsun28/issues-translate-action@v2.3
       
