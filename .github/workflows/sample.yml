@@ -7,6 +7,6 @@ on:
 
 jobs:
   build:
-    runs-on: [example-runner]
+    runs-on: [testrunner]
     steps:
       - uses: tomsun28/issues-translate-action@v2.3
