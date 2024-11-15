@@ -1,0 +1,12 @@
+name: issue-translator
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: [example-runner]
+    steps:
+      - uses: tomsun28/issues-translate-action@v2.3
